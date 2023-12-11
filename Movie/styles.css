@@ -1,0 +1,112 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FF4500;
+    color: #fff;
+}
+
+header {
+    background-color: #DC143C;
+    padding: 15px;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.login-form,
+.signup-form {
+    background-color: transparent; /* Set background to transparent */
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.form-field {
+    margin-bottom: 15px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #DC143C;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.movie-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.movie {
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #8B0000;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.movie img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #DC143C;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Professional Animation */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+section {
+    animation: fadeIn 1s ease-in-out;
+}
+
+.signup-form {
+    animation: fadeIn 1s ease-in-out;
+}
+ 
